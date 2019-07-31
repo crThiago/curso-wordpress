@@ -1,0 +1,23 @@
+/* Main column width */
+body.gutenberg-editor-page .editor-post-title__block,
+body.gutenberg-editor-page .editor-default-block-appender,
+body.gutenberg-editor-page .editor-block-list__block {
+    max-width: 800px;
+}
+
+/* Width of "wide" blocks */
+body.gutenberg-editor-page .editor-block-list__block[data-align="wide"] {
+    max-width: 1080px;
+}
+
+.edit-post-visual-editor,
+.edit-post-visual-editor p {
+  font: 16px/1.6 'Lato', sans-serif;
+  margin-top: 0;
+  margin-bottom: 1rem !important;
+}
+
+.editor-post-title textarea.editor-post-title__input{
+  font: 28px/2.8 'Oswald', sans-serif;
+  margin: 15px 0 15px;  
+}
